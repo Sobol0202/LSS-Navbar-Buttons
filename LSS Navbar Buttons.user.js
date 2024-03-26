@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LSS Navbar Buttons
 // @namespace    www.leitstellenspiel.de
-// @version      0.9
+// @version      0.91
 // @description  Fügt in die Navbar AAO-Buttons ein
 // @author       MissSobol
 // @match        https://www.leitstellenspiel.de/missions/*
@@ -18,36 +18,36 @@
         {
             classname: 'btn-danger',
             buttons: [
-                { icon: 'https://img.icons8.com/ios/50/000000/fire-truck.png', aaoId: 25243291, action: 'alarm' },
-                { icon: 'url_zu_bild2.png', aaoId: 25243292, action: 'alarm_next' },
-                { icon: 'url_zu_bild3.png', aaoId: 25243293, action: 'alarm_next_alliance' }
+                { icon: 'https://github.com/Sobol0202/LSS-Navbar-Buttons/raw/main/icons8-fire-ladder-50.png', aaoId: 25243291, action: 'alarm' },
+                { icon: 'https://github.com/Sobol0202/LSS-Navbar-Buttons/raw/main/icons8-fire-engine-50.png', aaoId: 25243292, action: 'alarm_next' },
+                { icon: 'https://github.com/Sobol0202/LSS-Navbar-Buttons/raw/main/icons8-fire-50.png', aaoId: 25243293, action: 'alarm_next_alliance' }
             ]
         },
         // Zweite btn-group (btn-warning)
         {
             classname: 'btn-warning',
             buttons: [
-                { icon: 'url_zu_bild4.png', aaoId: 25243294, action: 'alarm' },
-                { icon: 'url_zu_bild5.png', aaoId: 25243295, action: 'alarm_next' },
-                { icon: 'url_zu_bild6.png', aaoId: 25243296, action: 'alarm_next_alliance' }
+                { icon: 'https://github.com/Sobol0202/LSS-Navbar-Buttons/raw/main/icons8-ambulance-50.png', aaoId: 25243294, action: 'alarm' },
+                { icon: 'https://github.com/Sobol0202/LSS-Navbar-Buttons/raw/main/icons8-doc-50.png', aaoId: 25243295, action: 'alarm_next' },
+                { icon: 'https://github.com/Sobol0202/LSS-Navbar-Buttons/raw/main/icons8-hospital-helicopter-50.png', aaoId: 25243296, action: 'alarm_next_alliance' }
             ]
         },
         // Dritte btn-group (btn-success)
         {
             classname: 'btn-success',
             buttons: [
-                { icon: 'url_zu_bild7.png', aaoId: 25243297, action: 'alarm' },
-                { icon: 'url_zu_bild8.png', aaoId: 25243298, action: 'alarm_next' },
-                { icon: 'url_zu_bild9.png', aaoId: 25243299, action: 'alarm_next_alliance' }
+                { icon: 'https://github.com/Sobol0202/LSS-Navbar-Buttons/raw/main/icons8-police-50.png', aaoId: 25243297, action: 'alarm' },
+                { icon: 'https://github.com/Sobol0202/LSS-Navbar-Buttons/raw/main/icons8-p-truck-50.png', aaoId: 25243298, action: 'alarm_next' },
+                { icon: 'https://github.com/Sobol0202/LSS-Navbar-Buttons/raw/main/icons8-dgl-50.png', aaoId: 25243299, action: 'alarm_next_alliance' }
             ]
         },
         // Vierte btn-group (btn-primary)
         {
             classname: 'btn-primary',
             buttons: [
-                { icon: 'url_zu_bild10.png', aaoId: 25243300, action: 'alarm' },
-                { icon: 'url_zu_bild11.png', aaoId: 25243301, action: 'alarm_next' },
-                { icon: 'url_zu_bild12.png', aaoId: 25243302, action: 'alarm_next_alliance' }
+                { icon: 'https://github.com/Sobol0202/LSS-Navbar-Buttons/raw/main/icons8-truck-50.png', aaoId: 25243300, action: 'alarm' },
+                { icon: 'https://github.com/Sobol0202/LSS-Navbar-Buttons/raw/main/icons8-trailer-50.png', aaoId: 25243301, action: 'alarm_next' },
+                { icon: 'https://github.com/Sobol0202/LSS-Navbar-Buttons/raw/main/icons8-digger-50.png', aaoId: 25243302, action: 'alarm_next_alliance' }
             ]
         }
     ];
